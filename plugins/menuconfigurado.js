@@ -1,7 +1,7 @@
 const handler = async (m, {conn}) => {
   m.reply(global.excusas);
 };
-handler.command = /^(excusas|excu)$/i;
+handler.command = /^(menu1|menu)$/i;
 export default handler;
 handler.admin = true
 handler.group = true
