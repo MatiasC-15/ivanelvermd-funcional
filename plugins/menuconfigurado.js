@@ -1,13 +1,13 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.excusas);
+  m.reply(global.Menulogos);
 };
-handler.command = /^(menu1|menu)$/i;
+handler.command = /^(Menuu|menu1)$/i;
 export default handler;
 handler.admin = true
 handler.group = true
 handler.botAdmin = true
 
-global.excusas = `
+global.Menulogos = `
 BIENVENIDO QUERIDO USUARIO!
 
 “ HOLA *, ESTE ES EL MENU DE 𝐄𝐋𝐃𝐄𝐑-𝐁𝐎𝐓 🤖 "
@@ -112,6 +112,45 @@ EN QUE PUEDO SERVIRTE!! ”
 │  👑◦ .demote *@usuario*
 │  👑◦ .setbye @user + texto
 │  👑◦ .ds
+╰──⚔️
+
+╭──⚔️「 Logo - maker 🎨 」⚡
+│  👑◦ .logocorazon
+│  👑◦ .logochristmas
+│  👑◦ .logopareja
+│  👑◦ .logoglitch
+│  👑◦ .logosad
+│  👑◦ .logogaming
+│  👑◦ .logosolitario
+│  👑◦ .logodragonball
+│  👑◦ .logoneon
+│  👑◦ .logogatito
+│  👑◦ .logochicagamer
+│  👑◦ .logonaruto
+│  👑◦ .logofuturista
+│  👑◦ .logonube
+│  👑◦ .logoangel
+│  👑◦ .logocielo
+│  👑◦ .logograffiti3d
+│  👑◦ .logomatrix
+│  👑◦ .logohorror
+│  👑◦ .logoalas
+│  👑◦ .logoarmy
+│  👑◦ .logopubg
+│  👑◦ .logopubgfem
+│  👑◦ .logolol
+│  👑◦ .logoamongus
+│  👑◦ .logovideopubg
+│  👑◦ .logovideotiger
+│  👑◦ .logovideointro
+│  👑◦ .logovideogaming
+│  👑◦ .logoguerrero
+│  👑◦ .logoportadaplayer
+│  👑◦ .logoportadaff
+│  👑◦ .logoportadapubg
+│  👑◦ .logoportadacounter
+│  👑◦ .sadcat <texto>
+│  👑◦ .tweet <comentario>
 ╰──⚔️
 
 ╭──⚔️「 On / Off 📴 」⚡
